@@ -64,3 +64,59 @@ Thumbs.db
 
 # Ignore Docker volumes
 postgres_data/
+
+# Rails 8系の新機能関連ファイル
+
+# Propshaft (新しいアセットパイプライン)
+/public/assets
+/public/packs
+/public/packs-test
+
+# Solid Cache
+/db/cache_schema.rb
+
+# Solid Queue
+/db/queue_schema.rb
+
+# Solid Cable
+/db/cable_schema.rb
+
+# Kamal (デプロイメントツール)
+.kamal/
+/config/deploy.yml
+
+# Thruster (パフォーマンスツール)
+/thruster.log
+
+# Importmap関連
+/vendor/javascript
+
+# 開発用ファイル
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# テスト関連
+/coverage/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# キャッシュ関連
+.cache/
+.sass-cache/
+*.sass.map
+*.css.map
+
+# その他のRails 8系ファイル
+/config/credentials/*.key
+/config/credentials.yml.enc
+/config/storage.yml
+/config/cache.yml
+/config/queue.yml
+/config/recurring.yml
+
+# 開発用gemの設定
+.rubocop.yml
+.rubocop_todo.yml
